@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B58D5C9B269E1C3400D7D16F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58D5C9A269E1C3400D7D16F /* main.cpp */; };
+		B58D5CA5269E1D8F00D7D16F /* NumberGuessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58D5CA4269E1D8F00D7D16F /* NumberGuessing.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,8 @@
 
 /* Begin PBXFileReference section */
 		B58D5C97269E1C3400D7D16F /* NumberGuessing */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberGuessing; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58D5C9A269E1C3400D7D16F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B58D5CA1269E1C6900D7D16F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B58D5CA4269E1D8F00D7D16F /* NumberGuessing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumberGuessing.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		B58D5C99269E1C3400D7D16F /* NumberGuessing */ = {
 			isa = PBXGroup;
 			children = (
-				B58D5C9A269E1C3400D7D16F /* main.cpp */,
+				B58D5CA1269E1C6900D7D16F /* README.md */,
+				B58D5CA4269E1D8F00D7D16F /* NumberGuessing.cpp */,
 			);
 			path = NumberGuessing;
 			sourceTree = "<group>";
@@ -118,7 +120,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B58D5C9B269E1C3400D7D16F /* main.cpp in Sources */,
+				B58D5CA5269E1D8F00D7D16F /* NumberGuessing.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
